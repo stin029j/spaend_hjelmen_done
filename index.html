@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spænd hjelmen</title>
+    <link rel="stylesheet" href="sticker.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navMenu">
+        <img src="logo_rfst.png" alt="logo">
+        <a href="#instruktioner">Instruktioner</a>
+        <a href="kampagnevideo.html">Kampagne</a>
+        <a href="#nominering">Nomineringer</a>
+    </div>
+
+    <div id="openNav">
+        <div id="logo-menu"></div>
+    </div>
+
+    <div class="splash">
+        <div class="colorBox"></div>
+        <img src="splash.png" alt="splash">
+        <div class="infoBox">
+            <h1>Spænd hjelmen</h1>
+            <p>Vind en præmie ved at customize et klister-
+                mærke til dine bedsteforældre. Længere nede
+                På siden kan du gå i gang med dit design!
+            </p>
+        </div>
+
+        <a href="#banner">
+            <div class="arrow"></div>
+        </a>
+
+    </div>
+
+    <main>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+
+        <div id="banner">
+            <h1>Vind en præmie!</h1>
+            <p>Spænd hjelmen og vind et årskort til Tivoli. Vi afholder en konkurrence der handler om at et børnebørnenes tur til at passe på deres bedsteforældre. Konkurrencen går ud på at du som barnebarn designer et klistermærke til din bedsteforældre som de så skal gå ind og nominere her på siden. Vi trækker så lod om vinderen og i samarbejde med Tivoli kan du så være den heldige vinder af et årskort til tivoli til en værdi af 350kr</p>
+            <img src="Membership_Classic.png" alt="">
+        </div>
+
+        <section id="instruktioner">
+            <h1>Instruktioner</h1>
+            <h2>lav dit eget klistermærke!</h2>
+            <p>Her på siden kan du customize dit eget klistermærke til din bedsteforældre. På den måde kan du være med til at vi passer bedre på hinanden i trafikken og derigennem kan du blive nomineret til årets bedste barnebarn</p>
+        </section>
+
+        <section id="nominering">
+            <h1>Nominering af dit barnebarn</h1>
+            <h2>skal ske via E-mail...</h2>
+            <img class="postkasse" src="postkasse.png" alt="postkasse">
+            <div class="nyhedsBox">
+                <img class="nyhedsbrev_pic" src="nyhedsbrev.png" alt="">
+            </div>
+
+        </section>
+
+
+        <div class="menuNav">
+            <button id="prev_texture">&#8249;</button>
+            <p>Mønster</p>
+            <button id="ny_texture" class="filter" data-kategori="alle">&#8250;</button>
+            <button id="farve_tilbage">&#8249;</button>
+            <p>Mønsterfarve</p>
+            <button id="ny_farve" class="filter" data-kategori="alle">&#8250;</button><br>
+            <button id="prev_form">&#8249;</button>
+            <p>Baggrundsfarve</p>
+            <button id="ny_form" class="filter" data-kategori="alle">&#8250;</button><br>
+            <br>
+        </div>
+
+        <div id="container">
+            <div id="sticker" class="farve1">
+                <div id="logo">
+                </div>
+            </div>
+        </div>
+        <div id="header" class="sidenav">
+            <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+            <a href="#instruktioner">Instruktioner</a>
+            <a href="kampagnevideo.html">Kampagne</a>
+            <a href="#nomineringer">Nomineringer</a>
+        </div>
+    </main>
+
+    <script src="sticker.js"></script>
+</body>
+
+</html>

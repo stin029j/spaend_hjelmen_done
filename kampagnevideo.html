@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPÆND HJELMEN</title>
+    <link rel="stylesheet" href="sticker.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+
+
+
+
+
+
+
+</head>
+
+<body id="video">
+    <div class="navMenu">
+        <a href="index.html" id="forside"><img src="logo_rfst.png" alt="logo"></a>
+        <a href="index.html#instruktioner">Instruktioner</a>
+        <a href="kampagnevideo.html">Kampagne</a>
+        <a href="index.html#nominering">Nomineringer</a>
+    </div>
+
+
+    <main>
+
+
+        <span id="openNav" onclick="openNav()">
+            <div id="logo-menu"></div>
+        </span>
+
+        <div id="header" class="sidenav">
+            <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+            <a href="index.html">Forside</a>
+            <a href="index.html#instruktioner">Instruktioner</a>
+            <a href="kampagnevideo.html">Kampagne</a>
+            <a href="index.html#nominering">Nomineringer</a>
+        </div>
+
+        <div class="two_videoer">
+            <div class="long_video">
+                <h1 class="video_overskrift">LANG</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/npNAEC_kEJQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="short_video">
+                <h1 class="video_overskrift">KORT</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6xQSHmKYevY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+
+
+
+        <script>
+            function openNav() {
+                document.querySelector("#header").style.width = "250px";
+                document.getElementById("container").style.marginLeft = "250px";
+            }
+
+            function closeNav() {
+                document.querySelector("#header").style.width = "0";
+                document.getElementById("container").style.marginLeft = "0";
+            }
+        </script>
+    </main>
+</body>
+
+</html>
